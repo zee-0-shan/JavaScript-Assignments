@@ -5,6 +5,7 @@ function RunCallback(a, b, cb) {
      return cb(total)
     }
     
+    module.exports = RunCallback;
         
 
     
@@ -13,4 +14,3 @@ function RunCallback(a, b, cb) {
 
 
 
-module.exports = RunCallback;
