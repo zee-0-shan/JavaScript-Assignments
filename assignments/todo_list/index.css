@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+input{
+    color: blue;
+    border: 2px solid red;
+    border-radius: 15px;
+    height: 40px;
+    width: 15vw;
+    
+    
+}
+button{
+    cursor: pointer;
+    background-color:rgb(6, 169, 233);
+    color: rgb(10, 10, 10);
+    height: 5vh;
+    width: 10vw;
+}
+button:hover{
+    background-color: darkblue;
+    color: white;
+}
