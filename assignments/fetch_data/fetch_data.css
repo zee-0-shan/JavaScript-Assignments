@@ -1,0 +1,41 @@
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    
+}
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title_link{
+    text-decoration: none;
+}
+.title :hover{
+    color: green;
+}
+#completed_todo{
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#completed_todo:hover{
+    background-color: brown;
+    color: white;
+}
+
+#pending_todo{
+    background-color: black;
+    color: aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#pending_todo:hover{
+    background-color: brown;
+    color: white;
+}
